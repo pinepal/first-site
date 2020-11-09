@@ -1,0 +1,45 @@
+/*p, li, h1 {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}*/
+
+html {
+    font-size: 10px; /* базовый шрифт 10 пикс. в высоту */
+    font-family: 'Goldman', cursive;
+    background-color: #F8B4B4;
+}
+
+body {
+    width:600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width:80px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 1px 1px 35px black;
+
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: greenyellow;
+}
